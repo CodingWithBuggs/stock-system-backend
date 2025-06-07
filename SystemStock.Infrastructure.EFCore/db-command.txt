@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext “Name=ConnectionStrings:STOCKSYSTEM” Microsoft.EntityFrameworkCore.SqlServer -Namespace StockSystem.Domian.Entities -ContextNamespace SystemStock.Infrastructure.EFCore.Context -ContextDir Context -OutputDir Entities -Force
