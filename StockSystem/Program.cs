@@ -1,10 +1,8 @@
 
 using Microsoft.EntityFrameworkCore;
-using StockSystem.Application.Services;
-using StockSystem.Domian.Interfaces.Repositories;
-using StockSystem.Domian.Interfaces.Services;
+using StockSystem.Configurations.Application;
+using StockSystem.Configurations.Repositories;
 using SystemStock.Infrastructure.EFCore.Context;
-using SystemStock.Infrastructure.Repositories;
 
 namespace StockSystem
 {
@@ -32,11 +30,12 @@ namespace StockSystem
 
 
             builder.Services.AddDbContext<StockSystemContext>(p=>p.UseSqlServer("Name=ConnectionStrings:STOCKSYSTEM"));
+
             // Add Application Repositories
-            builder.Services.AddTransient<IProductTypeRepository, ProductTypeRepository>();
+            builder.Services.AddRepositories();
 
             // Add Application Services
-            builder.Services.AddTransient<IProductTypeService, ProductTypeService>();
+            builder.Services.AddApplication();
 
             var app = builder.Build();
 

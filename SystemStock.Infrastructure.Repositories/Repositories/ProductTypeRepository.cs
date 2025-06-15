@@ -1,11 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StockSystem.Domian.Entities;
 using StockSystem.Domian.Interfaces.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SystemStock.Infrastructure.EFCore.Context;
 
 namespace SystemStock.Infrastructure.Repositories

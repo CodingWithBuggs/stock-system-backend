@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace StockSystem.Domian.Entities;
+﻿namespace StockSystem.Domian.Entities;
 
 public partial class Product
 {

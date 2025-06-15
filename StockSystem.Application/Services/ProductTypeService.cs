@@ -1,11 +1,6 @@
 ﻿using StockSystem.Domian.Entities;
 using StockSystem.Domian.Interfaces.Repositories;
 using StockSystem.Domian.Interfaces.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StockSystem.Application.Services
 {

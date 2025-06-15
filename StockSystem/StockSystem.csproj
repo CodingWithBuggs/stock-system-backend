@@ -21,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StockSystem.Application\StockSystem.Application.csproj" />
+    <ProjectReference Include="..\StockSystem.Configurations.Application\StockSystem.Configurations.Application.csproj" />
+    <ProjectReference Include="..\StockSystem.Configurations.Repositories\StockSystem.Configurations.Repositories.csproj" />
     <ProjectReference Include="..\SystemStock.Infrastructure.EFCore\SystemStock.Infrastructure.EFCore.csproj" />
-    <ProjectReference Include="..\SystemStock.Infrastructure.Repositories\SystemStock.Infrastructure.Repositories.csproj" />
   </ItemGroup>
 
 </Project>
